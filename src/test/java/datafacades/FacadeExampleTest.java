@@ -1,5 +1,6 @@
-package facades;
+package datafacades;
 
+import facades.FacadeExample;
 import utils.EMF_Creator;
 import entities.RenameMe;
 import javax.persistence.EntityManager;
@@ -16,7 +17,7 @@ import org.junit.jupiter.api.Test;
 public class FacadeExampleTest {
 
     private static EntityManagerFactory emf;
-    private static FacadeExample facade;
+    private static facades.FacadeExample facade;
 
     public FacadeExampleTest() {
     }
